@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color: rgb(201, 194, 194);
+}
+
+header{
+    text-align: center;
+    padding: 35px;
+    margin-top: 100px;
+}
+
+form{
+    text-align: center;
+}
+
+input, button{
+    padding: 12px;
+}
+
+button{
+    background-color: grey;
+    border-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ul li{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+li:active{
+    text-decoration: line-through;
+}
+
+
